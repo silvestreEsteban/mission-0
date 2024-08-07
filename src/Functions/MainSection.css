@@ -1,0 +1,114 @@
+:root {
+    --main-color: #FBE0C3;
+    --color2: #FFBB98;
+    --color3: #7D8E95;
+    --color4: #344648;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.main-section {
+    width: 100%;
+    height: 900px;
+    background-image: url(https://vastphotos.com/files/uploads/photos/10306/high-resolution-mountains-and-lakes-l.jpg?v=20220712073521);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    border-bottom: 1px solid var(--color4);
+    max-height: 900px;
+
+}
+
+.left {
+    height: 600px;
+    width: 300px;
+    display: flex;
+    justify-self: flex-start;
+    background-color: white;
+}
+
+.right {
+    height: 600px;
+    width: 300px;
+    display: flex;
+    justify-self: flex-end;
+    background-color: white
+}
+
+.search-bar-div {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 1;
+
+
+}
+
+#search-bar {
+    height: 70px;
+    width: 400px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    border: 1px var(--color4) solid;
+    color: var(--color4);
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="image"] {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 48px;
+    top: 5px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1240px) {
+    input[type="image"] {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 821px) {
+    .left {
+        display: none;
+    }
+
+    .right {
+        display: none;
+    }
+
+    #search-bar {
+        width: 300px;
+        font-size: small;
+        margin-bottom: 70px;
+        background-size: cover;
+    }
+
+    .main-section {
+        height: 667px;
+    }
+
+}
+
+
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
