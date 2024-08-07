@@ -64,6 +64,8 @@ p {
 
 }
 
+/* Media */
+
 @media screen and (max-width: 450px) {
     .main-footer-div {
         height: 182px;
