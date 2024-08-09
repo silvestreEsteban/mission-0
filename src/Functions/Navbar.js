@@ -6,7 +6,11 @@ import { useState } from 'react';
 export default function Navbar() {   
 const [showMenu, setShowMenu] = useState(false)
 
-/* const dropdownButtonFunction = () => {
+
+
+/* 
+const [toggleClass, setToggleClass] = useState('to-be-hidden')
+const dropdownButtonFunction = () => {
     console.log('Hello');
     if (toggleClass === 'to-be-hidden') {
         setToggleClass('content-dropbtn')
@@ -14,6 +18,15 @@ const [showMenu, setShowMenu] = useState(false)
         setToggleClass('to-be-hidden');
     }
 } */ 
+
+/* 
+ const dropdownButtonFunction = () => {
+    if (showMenu === false) {
+    setShowMenu(true) }
+    else {
+    setShowMenu(false)
+    }}
+*/
 
     const dropdownButtonFunction = () => {
         console.log('Hello');
@@ -31,7 +44,7 @@ const [showMenu, setShowMenu] = useState(false)
                 <div id="logo">
                    <img id="img" src={myImage} alt='myImg'></img>
                 </div>
-                <h1>Outdoor Gear</h1>
+                <h1>Marketing Association</h1>
             </div>
             <div className="right-side-of-navbar">
                 <div id="buttons">
@@ -54,3 +67,5 @@ const [showMenu, setShowMenu] = useState(false)
         </>
     )
 }
+
+

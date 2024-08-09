@@ -5,8 +5,8 @@ export default function Footer() {
         <>
         <div className="main-footer-div">
             <div className='footer-content left'>
-                <h3>Outdoor Gear is a company was created to offer you the greatest quality of outdoor gear.</h3>
-                <p>Whether it be hiking, skiing, cycling, camping - we will meet your every need with utmost care and affordability.</p>
+                <h3>Marketing Association is a company that was created to offer you the greatest quality marketing goods.</h3>
+                <p>We guarantee a comfortable and smooth customer experience.`</p>
             </div>
             <div className='footer-content right'>
                 <h3>Contact us on:</h3>

@@ -8,3 +8,5 @@
 // Make section two responsive - done
 // Create a footer element, and make it responsive - done
 // Double check that whole website is mobile friendly -done
+// Make powerpoint - done
+// Finished.
